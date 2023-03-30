@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MyRestaurant</string>
+    <string name="brand_name">H-K-T Restaurant</string>
+    <string name="slogan">Delicious until the last minute</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="function">Manage</string>
+    <string name="howwork">User manual</string>
+    <string name="create_acc">Create <br/> account</string>
+    <string name="enter_fullname">Fullname</string>
+    <string name="enter_username">Username</string>
+    <string name="enter_email">Email</string>
+    <string name="enter_phone">Phone number</string>
+    <string name="enter_password">Password</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_complete">Complete</string>
+    <string name="add_sucessful">Add successfully!</string>
+    <string name="add_failed">Add failed!</string>
+    <string name="edit_sucessful">Edit successfully!</string>
+    <string name="edit_failed">Edit failed!</string>
+    <string name="delete_sucessful">Delete succesfully!</string>
+    <string name="delete_failed">Delete failed!</string>
+    <string name="not_empty">Can\'t be left blank!</string>
+    <string name="opentoggle">Open</string>
+    <string name="closetoggle">Close</string>
+    <string name="addTable">Add table</string>
+    <string name="tablename">Table Name</string>
+    <string name="addMenu">Add Menu</string>
+    <string name="addmenu">Add <br /> Menu</string>
+    <string name="addCategory">Add Category</string>
+    <string name="editcategory">Edit <br /> Category</string>
+    <string name="choseimg">Choose Image</string>
+</resources>

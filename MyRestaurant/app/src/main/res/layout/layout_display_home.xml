@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightwhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/txtWelcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Function List"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textAllCaps="true"
+                android:layout_margin="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:id="@+id/layoutDisplayHomeStatistic"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:elevation="8dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorPrimary">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/ic_baseline_calendar_today_24" />
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="33dp"
+                        android:layout_margin="10dp"
+                        android:gravity="center_horizontal"
+                        android:text="Revenue statistics"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:id="@+id/layoutDisplayHomeViewTable"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:elevation="8dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorPrimary">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/ic_baseline_airline_seat_legroom_normal_24"
+                            android:layout_centerInParent="true"/>
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:text="View list of tables"
+                        android:textColor="@color/black"
+                        android:layout_margin="10dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:id="@+id/layoutDisplayHomeViewMenu"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:elevation="8dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorPrimary">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/ic_baseline_add_circle_24"
+                            android:layout_centerInParent="true"/>
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:text="Add Menu"
+                        android:textColor="@color/black"
+                        android:layout_margin="10dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:id="@+id/layoutDisplayHomeViewStaff"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:elevation="8dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorPrimary">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/ic_baseline_account_circle_24"
+                            android:layout_centerInParent="true"/>
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:text="Staff Information"
+                        android:textColor="@color/black"
+                        android:layout_margin="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/grey"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Menu Category"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/muli_black"
+                    android:textColor="@color/black"
+                    android:textAllCaps="true"
+                    android:layout_centerVertical="true"/>
+                <TextView
+                    android:id="@+id/txtDisplayHomeViewAllCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Xem tất cả >"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcvDisplayHomeDishCategory"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:clipToPadding="false"/>
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/grey"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Orders of the day"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/muli_black"
+                    android:textColor="@color/black"
+                    android:textAllCaps="true"
+                    android:layout_centerVertical="true"/>
+                <TextView
+                    android:id="@+id/txtDisplayHomeViewAllStatistic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View All >"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcvDisplayHomeOrderOfDay"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:clipToPadding="false"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

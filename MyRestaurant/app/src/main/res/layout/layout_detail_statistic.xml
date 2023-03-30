@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DetailStatisticActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/imgDetailStatisticBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detail"
+            android:textSize="24sp"
+            android:fontFamily="@font/muli_black"
+            android:padding="10dp"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imgDetailStatisticBack"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/txtDetailStatisticId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Id: 1"
+            android:textSize="20sp"
+            android:fontFamily="@font/muli_black"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:id="@+id/txtDetailStatisticDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24/12/2022"
+            android:textSize="20sp"
+            android:fontFamily="@font/muli_black"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <GridView
+        android:id="@+id/gvDetailStatistic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:numColumns="1"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingVertical="5dp">
+    </GridView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="@drawable/corner_border_black"
+        android:layout_margin="5dp"
+        android:elevation="10dp">
+
+        <LinearLayout
+            android:id="@+id/linearInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/txtDetailStatisticTableName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bàn 1"
+                android:fontFamily="@font/muli"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/txtDetailStatisticStaff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtDetailStatisticTableName"
+                android:textColor="@color/white"
+                android:text="Hoang Hai"
+                android:fontFamily="@font/muli_black"
+                android:textSize="22sp"
+                android:paddingBottom="5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total:"
+                android:textColor="@color/white"
+                android:fontFamily="@font/muli"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/txtDetailStatisticTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="780000 VNĐ"
+                android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/muli_black"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navHome"
+            android:title="Home page"
+            android:icon="@drawable/ic_baseline_home_24"/>
+
+        <item
+            android:id="@+id/navStatistic"
+            android:title="Statistic"
+            android:icon="@drawable/ic_baseline_bar_chart_24"/>
+
+        <item android:title="Manage">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/navTable"
+                        android:title="Table"
+                        android:icon="@drawable/ic_baseline_airline_seat_legroom_normal_24"/>
+                    <item
+                        android:id="@+id/navCategory"
+                        android:title="Menu"
+                        android:icon="@drawable/ic_baseline_restaurant_menu_24"/>
+
+                    <item
+                        android:id="@+id/navStaff"
+                        android:title="Staff"
+                        android:icon="@drawable/ic_baseline_person_24"/>
+                </group>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/navLogout"
+            android:title="Logout"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"/>
+    </group>
+</menu>
